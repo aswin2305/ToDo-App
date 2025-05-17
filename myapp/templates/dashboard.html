@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h2>Welcome to Your Dashboard</h2>
+<ul>
+    <li><a href="{% url 'add_task' %}">Add Task</a></li>
+    <li><a href="{% url 'view_task' %}">View Task</a></li>
+</ul>
+{% endblock %}
