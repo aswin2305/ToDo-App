@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4qj5!u&li0w@^pri&1gyq8zsi*(u$+b(le^umcj=lyit$ed)^k'
 
 # Turn off debug for production
-DEBUG = True
+DEBUG = False
 
 # Allow Render domain
 ALLOWED_HOSTS = ALLOWED_HOSTS = ['todo-app-w5wv.onrender.com', '.onrender.com', 'localhost', '127.0.0.1']
