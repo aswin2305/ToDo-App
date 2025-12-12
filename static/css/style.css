@@ -1,0 +1,149 @@
+/* Fantasy-Inspired Theme */
+body {
+    font-family: 'Cinzel', serif;
+    background: linear-gradient(to bottom, #1e1b2e, #3c2f58);
+    color: #f5e6d0;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/images/fantasy-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header Styling */
+header {
+    background: rgba(28, 20, 46, 0.95);
+    padding: 40px;
+    text-align: center;
+    border-bottom: 4px solid #e5c17c;
+    box-shadow: 0 0 15px #e5c17c;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+header nav ul li a {
+    color: #e5c17c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+}
+
+header nav ul li a:hover {
+    color: #fff3b0;
+    text-shadow: 0 0 5px #ffd700;
+}
+
+/* Time Display */
+#current-time {
+    font-size: 28px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #ffd700;
+    text-shadow: 0 0 8px #fff, 0 0 3px #e5c17c;
+}
+
+/* Headings */
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #ffd700;
+    text-shadow: 2px 2px 5px #000;
+    border-bottom: 2px dashed #e5c17c;
+}
+
+/* Forms */
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border: 2px solid #e5c17c;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(229, 193, 124, 0.6);
+}
+
+form input, form textarea, form select {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid #e5c17c;
+    color: #f5e6d0;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 24px;
+    background: linear-gradient(to right, #b7791f, #ffcc70);
+    color: #1e1b2e;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 0 10px #e5c17c;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ffcc70, #ffd700);
+    box-shadow: 0 0 15px #fff;
+}
+
+/* Task List */
+ul {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #e5c17c;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #e5c17c;
+}
+
+ul li a {
+    color: #ffd700;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-shadow: 0 0 5px #fff;
+}
+
+/* Main container spacing */
+main {
+    padding: 30px 60px;
+}
+
+/* Messages */
+.messages {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.messages li {
+    padding: 10px;
+    background: #ffc;
+    border-left: 4px solid #e5c17c;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
